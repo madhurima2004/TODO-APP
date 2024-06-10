@@ -41,12 +41,14 @@ function App() {
   
 
   return (
+    <div >
     <center className="todo-container">
       <AppName />
       <AddTodo onNewItem ={handleNewItem}/>
      <WlcomeMsg todoItems={todoItems}></WlcomeMsg>
       <TodoItems todoItems={todoItems} onDeleteClick={handleDeleteItem}></TodoItems>
     </center>
+    </div>
   );
 }
 
