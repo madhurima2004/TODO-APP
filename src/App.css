@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: aqua;
 }
 h1{
@@ -16,7 +16,10 @@ input{
     border-radius: 10px;
 
 }
-
+/* .col-{
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 10px;
+} */
 .todo-container{
     margin: 100px;
     height: 350px;
@@ -28,6 +31,7 @@ input{
     text-align: left;
     color: rgb(222, 213, 231);
     font-weight: 600;
+    
     
 }
 
