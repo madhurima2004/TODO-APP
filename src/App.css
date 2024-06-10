@@ -1,0 +1,40 @@
+h1{
+    font-weight: 700;
+    font-size: 55px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+input{
+    width: 100%;
+
+}
+
+.todo-container{
+    margin: 30px;
+    height: 350px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    background-color: rgb(61, 233, 113);
+}
+.item-container{
+    text-align: left;
+    color: rgb(222, 213, 231);
+    font-weight: 600;
+    
+}
+
+.kg-btn{
+    min-width: 100px;
+}
+
+
+.kg-row{
+    margin: 10px ;
+}
+
+/* .btn-success {
+    min-width: 100px;
+} */
